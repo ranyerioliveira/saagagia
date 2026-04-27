@@ -1,8 +1,22 @@
-document.getElementById('whatsapp-link').addEventListener('click', function() {
-    const telefone = "5511916637691"; // Número com DDI (55) + DDD + Numero
-    const mensagem = encodeURIComponent("Olá! Gostaria de saber mais sobre a automação de IA.");
-    const url = `https://wa.me/${telefone}?text=${mensagem}`;
+document.addEventListener('DOMContentLoaded', function() {
     
-    // Abre em uma nova aba
-    window.open(url, '_blank');
+    // --- Lógica do WhatsApp ---
+    const botaoWhatsapp = document.getElementById('whatsapp-link');
+    if (botaoWhatsapp) {
+        botaoWhatsapp.addEventListener('click', function() {
+            const telefone = "5511916637691";
+            const mensagem = encodeURIComponent("Olá! Vim pelo site da Saag IA.");
+            window.open(`https://wa.me/${telefone}?text=${mensagem}`, '_blank');
+        });
+    }
+
+    // --- Lógica do Instagram ---
+    const botaoInstagram = document.getElementById('instagram-link');
+    if (botaoInstagram) {
+        botaoInstagram.addEventListener('click', function() {
+            // Substitua pelo link real do seu perfil
+            window.open('https://www.instagram.com/saagtecia/', '_blank');
+        });
+    }
+
 });
