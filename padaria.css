@@ -20,7 +20,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.671)), url("img/SAAG/logo.png");
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 110vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
