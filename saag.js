@@ -20,3 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });     
+
+// Lógica do Botão Flutuante
+const botaoFlutuante = document.getElementById('whatsapp-flutuante');
+if (botaoFlutuante) {
+    botaoFlutuante.addEventListener('click', function() {
+        const telefone = "5511916637691";
+        const mensagem = encodeURIComponent("Olá! Estou navegando no site da Saag IA e gostaria de tirar uma dúvida.");
+        window.open(`https://wa.me/${telefone}?text=${mensagem}`, '_blank');
+    });
+}
