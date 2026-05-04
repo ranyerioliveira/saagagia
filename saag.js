@@ -29,4 +29,4 @@ if (botaoFlutuante) {
         const mensagem = encodeURIComponent("Olá! Estou navegando no site da Saag IA e gostaria de tirar uma dúvida.");
         window.open(`https://wa.me/${telefone}?text=${mensagem}`, '_blank');
     });
-}
+} 
