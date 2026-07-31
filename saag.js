@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (botaoInstagram) {
         botaoInstagram.addEventListener('click', function() {
             // Substitua pelo link real do seu perfil
-            window.open('https://www.instagram.com/saagtecia/', '_blank');
+            window.open('https://www.instagram.com/legaiatenologia/', '_blank');
         });
     }
 
